@@ -1,0 +1,70 @@
+:root {
+  color-scheme: light;
+  --fundo: #f4f1ea;
+  --papel: #fffdf8;
+  --tinta: #1c1915;
+  --muted: #5c564c;
+  --linha: #e2d9cc;
+  --acento: #8a4b08;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--tinta);
+  font: 1.05rem/1.6 "Segoe UI", sans-serif;
+}
+
+a { color: var(--acento); }
+
+a:focus-visible {
+  outline: 2px solid var(--acento);
+  outline-offset: 3px;
+}
+
+.pagina {
+  width: min(42rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2.5rem 0 4rem;
+}
+
+.marca {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0.35rem 0 0.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 2rem 0 0.4rem;
+  font-size: 1.25rem;
+}
+
+p, li { color: var(--tinta); }
+
+.resumo { color: var(--muted); }
+
+.cartao {
+  margin-top: 1.5rem;
+  padding: 1.1rem 1.2rem;
+  background: var(--papel);
+  border: 1px solid var(--linha);
+  border-radius: 12px;
+}
+
+.cartao h2 { margin-top: 0; }
+
+.meta {
+  margin-top: 2.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
