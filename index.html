@@ -3,13 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070c16">
   <title>SLIMASOFT</title>
   <meta name="description" content="SLIMASOFT publica aplicativos Android. Cada aplicativo tem a própria página e a própria política de privacidade.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@380;560;760&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <header class="cabeca">
-    <div class="cabeca-miolo">
+  <header class="topo">
+    <div class="faixa">
       <a class="marca" href="./">SLIMASOFT</a>
       <nav aria-label="Principal">
         <a href="./" aria-current="page">Início</a>
@@ -18,18 +23,21 @@
       </nav>
     </div>
   </header>
-  <main class="pagina">
-    <h1>Aplicativos Android da SLIMASOFT</h1>
-    <p class="olho">Cada aplicativo publicado tem a própria página e a própria política de privacidade. O que está nesta lista é o que está no ar.</p>
-    <div class="grade">
-      <a class="cartao" href="aplicativos/ftp-cliente/">
-        <img src="aplicativos/ftp-cliente/icone.png" width="96" height="96" alt="">
-        <div>
-          <h2>FTP Cliente</h2>
-          <p>Baixe, envie e sincronize arquivos por FTP, FTPS, SFTP e SCP.</p>
-        </div>
-      </a>
-    </div>
+  <main>
+    <section class="hero">
+      <div class="miolo">
+        <p class="selo">Aplicativos Android</p>
+        <h1>SLIMASOFT</h1>
+        <p class="lead">Cada aplicativo lançado tem a própria página e a própria política de privacidade.</p>
+        <a class="vitrine" href="aplicativos/ftp-cliente/">
+          <img src="aplicativos/ftp-cliente/grafico.png" width="1024" height="500" alt="FTP Cliente, cliente de arquivos para FTP, FTPS, SFTP e SCP">
+          <div class="vitrine-texto">
+            <p>Baixe, envie e sincronize arquivos por FTP, FTPS, SFTP e SCP.</p>
+            <span class="ir">Ver o aplicativo</span>
+          </div>
+        </a>
+      </div>
+    </section>
   </main>
   <footer class="rodape">
     <div class="rodape-miolo">
